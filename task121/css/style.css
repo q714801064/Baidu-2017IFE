@@ -1,0 +1,113 @@
+body {
+  background-color: #C2C2C2; /*ccc*/
+  margin: 0px;
+  border: 0px;
+  font-size: 14px;
+  margin-top: -15px;
+  font-family:inherit;
+  word-break: break-all;
+}
+p {
+    text-indent:25px;
+}
+header {
+    background-color: #383838;
+    width: 100%;
+    height: 60px;
+    box-shadow: 5px 5px 5px #888888;
+}
+header img {
+    float: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+header li{
+  float: right;
+  display: inline-block;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    color: lightblue;
+}
+
+.class-page-1, .class-page-2,
+.class-page-3, .class-page-4,
+.class-page-5 {
+    background-color: white;
+    margin: 30px 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.class-images {
+    text-align: center;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 10px 10px;
+}
+.class-page-4 table {
+    width: 100%;
+    border-collapse:collapse;
+    text-align: left;
+}
+.class-page-4 table td,th {
+  border: 1px solid gray;
+}
+.class-page-4 table th {
+  height: 25px;
+  background-color: #000;
+  color: white;
+}
+#id-tr-last {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+
+.class-page-5 h1 {
+    border-left: 3px solid gray;
+    padding-left: 5px;
+}
+.class-page-5 tr td:first-child{
+  text-align:right;
+  width: 400px;
+  height: 30px;
+  padding-right: 20px;
+
+}
+.introduction td:first-child {
+  text-align:right;
+  width: 400px;
+  height: 30px;
+  padding-right: 20px;
+}
+
+.submit{
+  width: 100%;
+  background-color: #3366ff;
+  height: 40px;
+  color: white;
+  font-size: 1.2em;
+  margin-top:  20px;
+  border-radius: 20px;
+  border: none;
+}
+.gray {
+    color: gray;
+}
+footer {
+  background-color: #383838;
+  width: 100%;
+  height: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+footer p {
+  color: white;
+  padding-top: 20px;
+}
